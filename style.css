@@ -1,0 +1,41 @@
+:root{
+    --cor-letras-externo: white;
+    --background-site: rgb(61, 58, 58);
+}
+
+body{
+    margin: 0;
+    border: border-box;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: var(--background-site);
+}
+main{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+header h1{
+    color: var(--cor-letras-externo);
+    text-align: center;
+}
+.mostrador-de-horario{
+    background: none;
+    margin-left: 6%;
+    border-radius: 10px;
+    box-shadow: 1px 2px 5px 0px rgba(0, 0, 0, 0.384);
+    font-size: 1.6rem;
+    text-align: center;
+}
+.horario{
+    padding: 0.5rem;
+}
+figure img{
+    border-radius: 50%;
+    padding: 0.5rem;
+}
+footer p{
+    color: var(--cor-letras-externo);
+    text-align: center;
+}
